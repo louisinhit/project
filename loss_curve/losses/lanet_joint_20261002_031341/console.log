@@ -1,0 +1,783 @@
+Run: /home/lxy/ab_vary_length/test/losses/lanet_joint_20261002_031341
+Structure verified: {'state_tensor_count': 84, 'trainable_parameters': 3238312, 'weights_loaded': False}
+Device: cuda:0
+Loaded 4000/80000 signals into RAM
+Loaded 8000/80000 signals into RAM
+Loaded 12000/80000 signals into RAM
+Loaded 16000/80000 signals into RAM
+Loaded 20000/80000 signals into RAM
+Loaded 24000/80000 signals into RAM
+Loaded 28000/80000 signals into RAM
+Loaded 32000/80000 signals into RAM
+Loaded 36000/80000 signals into RAM
+Loaded 40000/80000 signals into RAM
+Loaded 44000/80000 signals into RAM
+Loaded 48000/80000 signals into RAM
+Loaded 52000/80000 signals into RAM
+Loaded 56000/80000 signals into RAM
+Loaded 60000/80000 signals into RAM
+Loaded 64000/80000 signals into RAM
+Loaded 68000/80000 signals into RAM
+Loaded 72000/80000 signals into RAM
+Loaded 76000/80000 signals into RAM
+Loaded 80000/80000 signals into RAM
+Loaded 4000/32000 signals into RAM
+Loaded 8000/32000 signals into RAM
+Loaded 12000/32000 signals into RAM
+Loaded 16000/32000 signals into RAM
+Loaded 20000/32000 signals into RAM
+Loaded 24000/32000 signals into RAM
+Loaded 28000/32000 signals into RAM
+Loaded 32000/32000 signals into RAM
+RAM datasets: train=80000, held-out=32000
+Epoch 1/50 step 10/500 global=10 loss=1.916890 lr=0.0005125 L=32768
+Epoch 1/50 step 20/500 global=20 loss=1.514694 lr=0.0005250 L=16384
+Epoch 1/50 step 30/500 global=30 loss=1.296582 lr=0.0005375 L=4096
+Epoch 1/50 step 40/500 global=40 loss=1.120632 lr=0.0005500 L=16384
+Epoch 1/50 step 50/500 global=50 loss=1.054255 lr=0.0005625 L=2048
+Epoch 1/50 step 60/500 global=60 loss=1.150701 lr=0.0005750 L=32768
+Epoch 1/50 step 70/500 global=70 loss=1.066949 lr=0.0005875 L=16384
+Epoch 1/50 step 80/500 global=80 loss=0.982292 lr=0.0006000 L=16384
+Epoch 1/50 step 90/500 global=90 loss=0.936421 lr=0.0006125 L=32768
+Epoch 1/50 step 100/500 global=100 loss=1.013585 lr=0.0006250 L=2048
+Epoch 1/50 step 110/500 global=110 loss=0.997185 lr=0.0006375 L=4096
+Epoch 1/50 step 120/500 global=120 loss=1.014086 lr=0.0006500 L=32768
+Epoch 1/50 step 130/500 global=130 loss=1.007046 lr=0.0006625 L=4096
+Epoch 1/50 step 140/500 global=140 loss=0.992390 lr=0.0006750 L=16384
+Epoch 1/50 step 150/500 global=150 loss=0.989608 lr=0.0006875 L=32768
+Epoch 1/50 step 160/500 global=160 loss=0.903912 lr=0.0007000 L=16384
+Epoch 1/50 step 170/500 global=170 loss=0.932329 lr=0.0007125 L=32768
+Epoch 1/50 step 180/500 global=180 loss=0.945479 lr=0.0007250 L=2048
+Epoch 1/50 step 190/500 global=190 loss=0.910014 lr=0.0007375 L=16384
+Epoch 1/50 step 200/500 global=200 loss=0.976884 lr=0.0007500 L=2048
+Epoch 1/50 step 210/500 global=210 loss=1.027027 lr=0.0007625 L=32768
+Epoch 1/50 step 220/500 global=220 loss=0.905967 lr=0.0007750 L=16384
+Epoch 1/50 step 230/500 global=230 loss=0.955571 lr=0.0007875 L=2048
+Epoch 1/50 step 240/500 global=240 loss=1.037372 lr=0.0008000 L=2048
+Epoch 1/50 step 250/500 global=250 loss=0.935971 lr=0.0008125 L=2048
+Epoch 1/50 step 260/500 global=260 loss=0.951894 lr=0.0008250 L=32768
+Epoch 1/50 step 270/500 global=270 loss=0.956923 lr=0.0008375 L=4096
+Epoch 1/50 step 280/500 global=280 loss=0.848560 lr=0.0008500 L=32768
+Epoch 1/50 step 290/500 global=290 loss=0.952501 lr=0.0008625 L=8192
+Epoch 1/50 step 300/500 global=300 loss=0.841293 lr=0.0008750 L=32768
+Epoch 1/50 step 310/500 global=310 loss=0.703132 lr=0.0008875 L=8192
+Epoch 1/50 step 320/500 global=320 loss=0.812899 lr=0.0009000 L=2048
+Epoch 1/50 step 330/500 global=330 loss=0.668292 lr=0.0009125 L=8192
+Epoch 1/50 step 340/500 global=340 loss=0.850909 lr=0.0009250 L=2048
+Epoch 1/50 step 350/500 global=350 loss=0.823673 lr=0.0009375 L=4096
+Epoch 1/50 step 360/500 global=360 loss=0.656449 lr=0.0009500 L=32768
+Epoch 1/50 step 370/500 global=370 loss=0.679497 lr=0.0009625 L=8192
+Epoch 1/50 step 380/500 global=380 loss=0.885611 lr=0.0009750 L=32768
+Epoch 1/50 step 390/500 global=390 loss=0.566323 lr=0.0009875 L=8192
+Epoch 1/50 step 400/500 global=400 loss=0.787015 lr=0.0010000 L=4096
+Epoch 1/50 step 410/500 global=410 loss=0.770465 lr=0.0010125 L=8192
+Epoch 1/50 step 420/500 global=420 loss=0.598010 lr=0.0010250 L=8192
+Epoch 1/50 step 430/500 global=430 loss=0.870355 lr=0.0010375 L=2048
+Epoch 1/50 step 440/500 global=440 loss=0.649560 lr=0.0010500 L=16384
+Epoch 1/50 step 450/500 global=450 loss=0.559404 lr=0.0010625 L=16384
+Epoch 1/50 step 460/500 global=460 loss=0.627662 lr=0.0010750 L=16384
+Epoch 1/50 step 470/500 global=470 loss=0.661647 lr=0.0010875 L=16384
+Epoch 1/50 step 480/500 global=480 loss=0.645024 lr=0.0011000 L=32768
+Epoch 1/50 step 490/500 global=490 loss=0.586334 lr=0.0011125 L=8192
+Epoch 1/50 step 500/500 global=500 loss=0.599439 lr=0.0011250 L=8192
+Epoch 1 complete: train_loss=0.902734, heldout_loss=0.824390, heldout_acc=63.9906%
+Epoch 2/50 step 10/500 global=510 loss=0.578788 lr=0.0011375 L=16384
+Epoch 2/50 step 20/500 global=520 loss=0.776349 lr=0.0011500 L=2048
+Epoch 2/50 step 30/500 global=530 loss=0.766594 lr=0.0011625 L=2048
+Epoch 2/50 step 40/500 global=540 loss=0.620840 lr=0.0011750 L=2048
+Epoch 2/50 step 50/500 global=550 loss=0.637390 lr=0.0011875 L=16384
+Epoch 2/50 step 60/500 global=560 loss=0.547445 lr=0.0012000 L=8192
+Epoch 2/50 step 70/500 global=570 loss=0.590831 lr=0.0012125 L=32768
+Epoch 2/50 step 80/500 global=580 loss=0.619461 lr=0.0012250 L=8192
+Epoch 2/50 step 90/500 global=590 loss=0.666707 lr=0.0012375 L=8192
+Epoch 2/50 step 100/500 global=600 loss=0.573377 lr=0.0012500 L=32768
+Epoch 2/50 step 110/500 global=610 loss=0.642819 lr=0.0012625 L=2048
+Epoch 2/50 step 120/500 global=620 loss=0.603758 lr=0.0012750 L=32768
+Epoch 2/50 step 130/500 global=630 loss=0.701053 lr=0.0012875 L=8192
+Epoch 2/50 step 140/500 global=640 loss=0.651472 lr=0.0013000 L=16384
+Epoch 2/50 step 150/500 global=650 loss=0.525115 lr=0.0013125 L=2048
+Epoch 2/50 step 160/500 global=660 loss=0.710091 lr=0.0013250 L=8192
+Epoch 2/50 step 170/500 global=670 loss=0.641012 lr=0.0013375 L=8192
+Epoch 2/50 step 180/500 global=680 loss=0.530430 lr=0.0013500 L=4096
+Epoch 2/50 step 190/500 global=690 loss=0.776571 lr=0.0013625 L=8192
+Epoch 2/50 step 200/500 global=700 loss=0.641774 lr=0.0013750 L=32768
+Epoch 2/50 step 210/500 global=710 loss=0.575274 lr=0.0013875 L=16384
+Epoch 2/50 step 220/500 global=720 loss=0.589124 lr=0.0014000 L=2048
+Epoch 2/50 step 230/500 global=730 loss=0.580571 lr=0.0014125 L=8192
+Epoch 2/50 step 240/500 global=740 loss=0.654636 lr=0.0014250 L=2048
+Epoch 2/50 step 250/500 global=750 loss=0.531135 lr=0.0014375 L=16384
+Epoch 2/50 step 260/500 global=760 loss=0.594692 lr=0.0014500 L=2048
+Epoch 2/50 step 270/500 global=770 loss=0.611705 lr=0.0014625 L=16384
+Epoch 2/50 step 280/500 global=780 loss=0.582036 lr=0.0014750 L=32768
+Epoch 2/50 step 290/500 global=790 loss=0.592316 lr=0.0014875 L=16384
+Epoch 2/50 step 300/500 global=800 loss=0.567220 lr=0.0015000 L=16384
+Epoch 2/50 step 310/500 global=810 loss=0.533290 lr=0.0015125 L=8192
+Epoch 2/50 step 320/500 global=820 loss=0.585135 lr=0.0015250 L=4096
+Epoch 2/50 step 330/500 global=830 loss=0.642266 lr=0.0015375 L=16384
+Epoch 2/50 step 340/500 global=840 loss=0.612628 lr=0.0015500 L=2048
+Epoch 2/50 step 350/500 global=850 loss=0.726783 lr=0.0015625 L=4096
+Epoch 2/50 step 360/500 global=860 loss=0.619155 lr=0.0015750 L=16384
+Epoch 2/50 step 370/500 global=870 loss=0.615636 lr=0.0015875 L=4096
+Epoch 2/50 step 380/500 global=880 loss=0.581418 lr=0.0016000 L=2048
+Epoch 2/50 step 390/500 global=890 loss=0.603791 lr=0.0016125 L=2048
+Epoch 2/50 step 400/500 global=900 loss=0.652018 lr=0.0016250 L=4096
+Epoch 2/50 step 410/500 global=910 loss=0.642828 lr=0.0016375 L=8192
+Epoch 2/50 step 420/500 global=920 loss=0.518201 lr=0.0016500 L=16384
+Epoch 2/50 step 430/500 global=930 loss=0.568841 lr=0.0016625 L=16384
+Epoch 2/50 step 440/500 global=940 loss=0.506624 lr=0.0016750 L=4096
+Epoch 2/50 step 450/500 global=950 loss=0.613703 lr=0.0016875 L=2048
+Epoch 2/50 step 460/500 global=960 loss=0.625994 lr=0.0017000 L=2048
+Epoch 2/50 step 470/500 global=970 loss=0.538360 lr=0.0017125 L=2048
+Epoch 2/50 step 480/500 global=980 loss=0.557225 lr=0.0017250 L=2048
+Epoch 2/50 step 490/500 global=990 loss=0.629339 lr=0.0017375 L=32768
+Epoch 2/50 step 500/500 global=1000 loss=0.497699 lr=0.0017500 L=32768
+Epoch 2 complete: train_loss=0.611030, heldout_loss=1.532550, heldout_acc=52.1750%
+Epoch 3/50 step 10/500 global=1010 loss=0.640500 lr=0.0017625 L=2048
+Epoch 3/50 step 20/500 global=1020 loss=0.538191 lr=0.0017750 L=16384
+Epoch 3/50 step 30/500 global=1030 loss=0.552121 lr=0.0017875 L=32768
+Epoch 3/50 step 40/500 global=1040 loss=0.594732 lr=0.0018000 L=32768
+Epoch 3/50 step 50/500 global=1050 loss=0.409705 lr=0.0018125 L=4096
+Epoch 3/50 step 60/500 global=1060 loss=0.705210 lr=0.0018250 L=2048
+Epoch 3/50 step 70/500 global=1070 loss=0.514049 lr=0.0018375 L=16384
+Epoch 3/50 step 80/500 global=1080 loss=0.449503 lr=0.0018500 L=32768
+Epoch 3/50 step 90/500 global=1090 loss=0.540820 lr=0.0018625 L=16384
+Epoch 3/50 step 100/500 global=1100 loss=0.560643 lr=0.0018750 L=8192
+Epoch 3/50 step 110/500 global=1110 loss=0.453942 lr=0.0018875 L=8192
+Epoch 3/50 step 120/500 global=1120 loss=0.568149 lr=0.0019000 L=2048
+Epoch 3/50 step 130/500 global=1130 loss=0.638665 lr=0.0019125 L=32768
+Epoch 3/50 step 140/500 global=1140 loss=0.665751 lr=0.0019250 L=2048
+Epoch 3/50 step 150/500 global=1150 loss=0.534299 lr=0.0019375 L=16384
+Epoch 3/50 step 160/500 global=1160 loss=0.567580 lr=0.0019500 L=2048
+Epoch 3/50 step 170/500 global=1170 loss=0.492540 lr=0.0019625 L=8192
+Epoch 3/50 step 180/500 global=1180 loss=0.588505 lr=0.0019750 L=4096
+Epoch 3/50 step 190/500 global=1190 loss=0.560243 lr=0.0019875 L=2048
+Epoch 3/50 step 200/500 global=1200 loss=0.543955 lr=0.0020000 L=2048
+Epoch 3/50 step 210/500 global=1210 loss=0.565857 lr=0.0020125 L=4096
+Epoch 3/50 step 220/500 global=1220 loss=0.577972 lr=0.0020250 L=32768
+Epoch 3/50 step 230/500 global=1230 loss=0.513149 lr=0.0020375 L=8192
+Epoch 3/50 step 240/500 global=1240 loss=0.547924 lr=0.0020500 L=8192
+Epoch 3/50 step 250/500 global=1250 loss=0.556097 lr=0.0020625 L=2048
+Epoch 3/50 step 260/500 global=1260 loss=0.600688 lr=0.0020750 L=2048
+Epoch 3/50 step 270/500 global=1270 loss=0.498180 lr=0.0020875 L=4096
+Epoch 3/50 step 280/500 global=1280 loss=0.552120 lr=0.0021000 L=32768
+Epoch 3/50 step 290/500 global=1290 loss=0.613096 lr=0.0021125 L=2048
+Epoch 3/50 step 300/500 global=1300 loss=0.483964 lr=0.0021250 L=32768
+Epoch 3/50 step 310/500 global=1310 loss=0.654614 lr=0.0021375 L=4096
+Epoch 3/50 step 320/500 global=1320 loss=0.560137 lr=0.0021500 L=4096
+Epoch 3/50 step 330/500 global=1330 loss=0.496399 lr=0.0021625 L=32768
+Epoch 3/50 step 340/500 global=1340 loss=0.651060 lr=0.0021750 L=4096
+Epoch 3/50 step 350/500 global=1350 loss=0.533962 lr=0.0021875 L=32768
+Epoch 3/50 step 360/500 global=1360 loss=0.471359 lr=0.0022000 L=16384
+Epoch 3/50 step 370/500 global=1370 loss=0.451674 lr=0.0022125 L=16384
+Epoch 3/50 step 380/500 global=1380 loss=0.617284 lr=0.0022250 L=2048
+Epoch 3/50 step 390/500 global=1390 loss=0.620460 lr=0.0022375 L=2048
+Epoch 3/50 step 400/500 global=1400 loss=0.559546 lr=0.0022500 L=2048
+Epoch 3/50 step 410/500 global=1410 loss=0.608668 lr=0.0022625 L=4096
+Epoch 3/50 step 420/500 global=1420 loss=0.451149 lr=0.0022750 L=16384
+Epoch 3/50 step 430/500 global=1430 loss=0.652446 lr=0.0022875 L=2048
+Epoch 3/50 step 440/500 global=1440 loss=0.532535 lr=0.0023000 L=16384
+Epoch 3/50 step 450/500 global=1450 loss=0.412027 lr=0.0023125 L=16384
+Epoch 3/50 step 460/500 global=1460 loss=0.468444 lr=0.0023250 L=4096
+Epoch 3/50 step 470/500 global=1470 loss=0.580290 lr=0.0023375 L=32768
+Epoch 3/50 step 480/500 global=1480 loss=0.548692 lr=0.0023500 L=8192
+Epoch 3/50 step 490/500 global=1490 loss=0.510365 lr=0.0023625 L=16384
+Epoch 3/50 step 500/500 global=1500 loss=0.605343 lr=0.0023750 L=2048
+Epoch 3 complete: train_loss=0.552292, heldout_loss=1.305501, heldout_acc=59.7188%
+Epoch 4/50 step 10/500 global=1510 loss=0.678396 lr=0.0023875 L=4096
+Epoch 4/50 step 20/500 global=1520 loss=0.513091 lr=0.0024000 L=16384
+Epoch 4/50 step 30/500 global=1530 loss=0.630183 lr=0.0024125 L=4096
+Epoch 4/50 step 40/500 global=1540 loss=0.600902 lr=0.0024250 L=2048
+Epoch 4/50 step 50/500 global=1550 loss=0.572990 lr=0.0024375 L=2048
+Epoch 4/50 step 60/500 global=1560 loss=0.466761 lr=0.0024500 L=8192
+Epoch 4/50 step 70/500 global=1570 loss=0.526171 lr=0.0024625 L=16384
+Epoch 4/50 step 80/500 global=1580 loss=0.553205 lr=0.0024750 L=16384
+Epoch 4/50 step 90/500 global=1590 loss=0.530407 lr=0.0024875 L=32768
+Epoch 4/50 step 100/500 global=1600 loss=0.503019 lr=0.0025000 L=8192
+Epoch 4/50 step 110/500 global=1610 loss=0.505570 lr=0.0024875 L=16384
+Epoch 4/50 step 120/500 global=1620 loss=0.562900 lr=0.0024750 L=2048
+Epoch 4/50 step 130/500 global=1630 loss=0.486241 lr=0.0024625 L=8192
+Epoch 4/50 step 140/500 global=1640 loss=0.523241 lr=0.0024500 L=4096
+Epoch 4/50 step 150/500 global=1650 loss=0.539948 lr=0.0024375 L=8192
+Epoch 4/50 step 160/500 global=1660 loss=0.476276 lr=0.0024250 L=16384
+Epoch 4/50 step 170/500 global=1670 loss=0.507941 lr=0.0024125 L=16384
+Epoch 4/50 step 180/500 global=1680 loss=0.484481 lr=0.0024000 L=8192
+Epoch 4/50 step 190/500 global=1690 loss=0.471350 lr=0.0023875 L=2048
+Epoch 4/50 step 200/500 global=1700 loss=0.574986 lr=0.0023750 L=32768
+Epoch 4/50 step 210/500 global=1710 loss=0.577682 lr=0.0023625 L=32768
+Epoch 4/50 step 220/500 global=1720 loss=0.481642 lr=0.0023500 L=16384
+Epoch 4/50 step 230/500 global=1730 loss=0.557849 lr=0.0023375 L=4096
+Epoch 4/50 step 240/500 global=1740 loss=0.638088 lr=0.0023250 L=8192
+Epoch 4/50 step 250/500 global=1750 loss=0.492595 lr=0.0023125 L=32768
+Epoch 4/50 step 260/500 global=1760 loss=0.533987 lr=0.0023000 L=32768
+Epoch 4/50 step 270/500 global=1770 loss=0.504991 lr=0.0022875 L=8192
+Epoch 4/50 step 280/500 global=1780 loss=0.486729 lr=0.0022750 L=16384
+Epoch 4/50 step 290/500 global=1790 loss=0.529736 lr=0.0022625 L=32768
+Epoch 4/50 step 300/500 global=1800 loss=0.552355 lr=0.0022500 L=8192
+Epoch 4/50 step 310/500 global=1810 loss=0.434568 lr=0.0022375 L=32768
+Epoch 4/50 step 320/500 global=1820 loss=0.560916 lr=0.0022250 L=4096
+Epoch 4/50 step 330/500 global=1830 loss=0.534623 lr=0.0022125 L=16384
+Epoch 4/50 step 340/500 global=1840 loss=0.496526 lr=0.0022000 L=4096
+Epoch 4/50 step 350/500 global=1850 loss=0.549806 lr=0.0021875 L=2048
+Epoch 4/50 step 360/500 global=1860 loss=0.496706 lr=0.0021750 L=32768
+Epoch 4/50 step 370/500 global=1870 loss=0.554698 lr=0.0021625 L=8192
+Epoch 4/50 step 380/500 global=1880 loss=0.456972 lr=0.0021500 L=8192
+Epoch 4/50 step 390/500 global=1890 loss=0.496522 lr=0.0021375 L=32768
+Epoch 4/50 step 400/500 global=1900 loss=0.426116 lr=0.0021250 L=16384
+Epoch 4/50 step 410/500 global=1910 loss=0.450647 lr=0.0021125 L=16384
+Epoch 4/50 step 420/500 global=1920 loss=0.481102 lr=0.0021000 L=32768
+Epoch 4/50 step 430/500 global=1930 loss=0.446029 lr=0.0020875 L=4096
+Epoch 4/50 step 440/500 global=1940 loss=0.520475 lr=0.0020750 L=2048
+Epoch 4/50 step 450/500 global=1950 loss=0.540422 lr=0.0020625 L=4096
+Epoch 4/50 step 460/500 global=1960 loss=0.411383 lr=0.0020500 L=32768
+Epoch 4/50 step 470/500 global=1970 loss=0.480517 lr=0.0020375 L=8192
+Epoch 4/50 step 480/500 global=1980 loss=0.410307 lr=0.0020250 L=8192
+Epoch 4/50 step 490/500 global=1990 loss=0.423844 lr=0.0020125 L=32768
+Epoch 4/50 step 500/500 global=2000 loss=0.602495 lr=0.0020000 L=4096
+Epoch 4 complete: train_loss=0.516768, heldout_loss=1.006565, heldout_acc=66.5406%
+Epoch 5/50 step 10/500 global=2010 loss=0.617290 lr=0.0019875 L=32768
+Epoch 5/50 step 20/500 global=2020 loss=0.487114 lr=0.0019750 L=16384
+Epoch 5/50 step 30/500 global=2030 loss=0.576401 lr=0.0019625 L=16384
+Epoch 5/50 step 40/500 global=2040 loss=0.576552 lr=0.0019500 L=16384
+Epoch 5/50 step 50/500 global=2050 loss=0.530114 lr=0.0019375 L=16384
+Epoch 5/50 step 60/500 global=2060 loss=0.533748 lr=0.0019250 L=4096
+Epoch 5/50 step 70/500 global=2070 loss=0.539865 lr=0.0019125 L=2048
+Epoch 5/50 step 80/500 global=2080 loss=0.620799 lr=0.0019000 L=2048
+Epoch 5/50 step 90/500 global=2090 loss=0.489478 lr=0.0018875 L=8192
+Epoch 5/50 step 100/500 global=2100 loss=0.544930 lr=0.0018750 L=8192
+Epoch 5/50 step 110/500 global=2110 loss=0.519262 lr=0.0018625 L=8192
+Epoch 5/50 step 120/500 global=2120 loss=0.629248 lr=0.0018500 L=8192
+Epoch 5/50 step 130/500 global=2130 loss=0.416756 lr=0.0018375 L=32768
+Epoch 5/50 step 140/500 global=2140 loss=0.506818 lr=0.0018250 L=32768
+Epoch 5/50 step 150/500 global=2150 loss=0.466120 lr=0.0018125 L=16384
+Epoch 5/50 step 160/500 global=2160 loss=0.552199 lr=0.0018000 L=2048
+Epoch 5/50 step 170/500 global=2170 loss=0.504388 lr=0.0017875 L=16384
+Epoch 5/50 step 180/500 global=2180 loss=0.515417 lr=0.0017750 L=32768
+Epoch 5/50 step 190/500 global=2190 loss=0.639056 lr=0.0017625 L=2048
+Epoch 5/50 step 200/500 global=2200 loss=0.430805 lr=0.0017500 L=32768
+Epoch 5/50 step 210/500 global=2210 loss=0.505418 lr=0.0017375 L=2048
+Epoch 5/50 step 220/500 global=2220 loss=0.514389 lr=0.0017250 L=2048
+Epoch 5/50 step 230/500 global=2230 loss=0.459303 lr=0.0017125 L=16384
+Epoch 5/50 step 240/500 global=2240 loss=0.484315 lr=0.0017000 L=4096
+Epoch 5/50 step 250/500 global=2250 loss=0.505111 lr=0.0016875 L=2048
+Epoch 5/50 step 260/500 global=2260 loss=0.443450 lr=0.0016750 L=32768
+Epoch 5/50 step 270/500 global=2270 loss=0.510227 lr=0.0016625 L=2048
+Epoch 5/50 step 280/500 global=2280 loss=0.412830 lr=0.0016500 L=8192
+Epoch 5/50 step 290/500 global=2290 loss=0.513743 lr=0.0016375 L=2048
+Epoch 5/50 step 300/500 global=2300 loss=0.461624 lr=0.0016250 L=16384
+Epoch 5/50 step 310/500 global=2310 loss=0.520553 lr=0.0016125 L=16384
+Epoch 5/50 step 320/500 global=2320 loss=0.518138 lr=0.0016000 L=8192
+Epoch 5/50 step 330/500 global=2330 loss=0.553388 lr=0.0015875 L=4096
+Epoch 5/50 step 340/500 global=2340 loss=0.548698 lr=0.0015750 L=8192
+Epoch 5/50 step 350/500 global=2350 loss=0.542399 lr=0.0015625 L=16384
+Epoch 5/50 step 360/500 global=2360 loss=0.534752 lr=0.0015500 L=4096
+Epoch 5/50 step 370/500 global=2370 loss=0.530405 lr=0.0015375 L=8192
+Epoch 5/50 step 380/500 global=2380 loss=0.454961 lr=0.0015250 L=32768
+Epoch 5/50 step 390/500 global=2390 loss=0.537139 lr=0.0015125 L=2048
+Epoch 5/50 step 400/500 global=2400 loss=0.511878 lr=0.0015000 L=8192
+Epoch 5/50 step 410/500 global=2410 loss=0.485399 lr=0.0014875 L=32768
+Epoch 5/50 step 420/500 global=2420 loss=0.539254 lr=0.0014750 L=16384
+Epoch 5/50 step 430/500 global=2430 loss=0.522794 lr=0.0014625 L=2048
+Epoch 5/50 step 440/500 global=2440 loss=0.566951 lr=0.0014500 L=32768
+Epoch 5/50 step 450/500 global=2450 loss=0.470663 lr=0.0014375 L=32768
+Epoch 5/50 step 460/500 global=2460 loss=0.529452 lr=0.0014250 L=2048
+Epoch 5/50 step 470/500 global=2470 loss=0.401928 lr=0.0014125 L=8192
+Epoch 5/50 step 480/500 global=2480 loss=0.450648 lr=0.0014000 L=32768
+Epoch 5/50 step 490/500 global=2490 loss=0.496771 lr=0.0013875 L=4096
+Epoch 5/50 step 500/500 global=2500 loss=0.480336 lr=0.0013750 L=8192
+Epoch 5 complete: train_loss=0.514066, heldout_loss=0.685413, heldout_acc=72.1187%
+Epoch 6/50 step 10/500 global=2510 loss=0.514149 lr=0.0013625 L=32768
+Epoch 6/50 step 20/500 global=2520 loss=0.455301 lr=0.0013500 L=32768
+Epoch 6/50 step 30/500 global=2530 loss=0.521354 lr=0.0013375 L=16384
+Epoch 6/50 step 40/500 global=2540 loss=0.530600 lr=0.0013250 L=16384
+Epoch 6/50 step 50/500 global=2550 loss=0.467681 lr=0.0013125 L=16384
+Epoch 6/50 step 60/500 global=2560 loss=0.525030 lr=0.0013000 L=16384
+Epoch 6/50 step 70/500 global=2570 loss=0.557424 lr=0.0012875 L=16384
+Epoch 6/50 step 80/500 global=2580 loss=0.489756 lr=0.0012750 L=32768
+Epoch 6/50 step 90/500 global=2590 loss=0.501549 lr=0.0012625 L=16384
+Epoch 6/50 step 100/500 global=2600 loss=0.425379 lr=0.0012500 L=16384
+Epoch 6/50 step 110/500 global=2610 loss=0.392559 lr=0.0012375 L=8192
+Epoch 6/50 step 120/500 global=2620 loss=0.470072 lr=0.0012250 L=4096
+Epoch 6/50 step 130/500 global=2630 loss=0.578233 lr=0.0012125 L=2048
+Epoch 6/50 step 140/500 global=2640 loss=0.621118 lr=0.0012000 L=8192
+Epoch 6/50 step 150/500 global=2650 loss=0.627577 lr=0.0011875 L=8192
+Epoch 6/50 step 160/500 global=2660 loss=0.482587 lr=0.0011750 L=2048
+Epoch 6/50 step 170/500 global=2670 loss=0.547098 lr=0.0011625 L=8192
+Epoch 6/50 step 180/500 global=2680 loss=0.463734 lr=0.0011500 L=32768
+Epoch 6/50 step 190/500 global=2690 loss=0.481583 lr=0.0011375 L=2048
+Epoch 6/50 step 200/500 global=2700 loss=0.390387 lr=0.0011250 L=32768
+Epoch 6/50 step 210/500 global=2710 loss=0.500994 lr=0.0011125 L=4096
+Epoch 6/50 step 220/500 global=2720 loss=0.474789 lr=0.0011000 L=16384
+Epoch 6/50 step 230/500 global=2730 loss=0.538124 lr=0.0010875 L=8192
+Epoch 6/50 step 240/500 global=2740 loss=0.440949 lr=0.0010750 L=16384
+Epoch 6/50 step 250/500 global=2750 loss=0.472747 lr=0.0010625 L=32768
+Epoch 6/50 step 260/500 global=2760 loss=0.484895 lr=0.0010500 L=8192
+Epoch 6/50 step 270/500 global=2770 loss=0.487811 lr=0.0010375 L=16384
+Epoch 6/50 step 280/500 global=2780 loss=0.495748 lr=0.0010250 L=2048
+Epoch 6/50 step 290/500 global=2790 loss=0.527609 lr=0.0010125 L=16384
+Epoch 6/50 step 300/500 global=2800 loss=0.449955 lr=0.0010000 L=4096
+Epoch 6/50 step 310/500 global=2810 loss=0.495045 lr=0.0009875 L=32768
+Epoch 6/50 step 320/500 global=2820 loss=0.454847 lr=0.0009750 L=2048
+Epoch 6/50 step 330/500 global=2830 loss=0.490125 lr=0.0009625 L=16384
+Epoch 6/50 step 340/500 global=2840 loss=0.417914 lr=0.0009500 L=32768
+Epoch 6/50 step 350/500 global=2850 loss=0.493637 lr=0.0009375 L=2048
+Epoch 6/50 step 360/500 global=2860 loss=0.467154 lr=0.0009250 L=4096
+Epoch 6/50 step 370/500 global=2870 loss=0.495424 lr=0.0009125 L=8192
+Epoch 6/50 step 380/500 global=2880 loss=0.490623 lr=0.0009000 L=32768
+Epoch 6/50 step 390/500 global=2890 loss=0.592004 lr=0.0008875 L=8192
+Epoch 6/50 step 400/500 global=2900 loss=0.505282 lr=0.0008750 L=32768
+Epoch 6/50 step 410/500 global=2910 loss=0.435768 lr=0.0008625 L=16384
+Epoch 6/50 step 420/500 global=2920 loss=0.587796 lr=0.0008500 L=4096
+Epoch 6/50 step 430/500 global=2930 loss=0.483430 lr=0.0008375 L=8192
+Epoch 6/50 step 440/500 global=2940 loss=0.601299 lr=0.0008250 L=2048
+Epoch 6/50 step 450/500 global=2950 loss=0.529186 lr=0.0008125 L=2048
+Epoch 6/50 step 460/500 global=2960 loss=0.525806 lr=0.0008000 L=32768
+Epoch 6/50 step 470/500 global=2970 loss=0.487906 lr=0.0007875 L=4096
+Epoch 6/50 step 480/500 global=2980 loss=0.433430 lr=0.0007750 L=4096
+Epoch 6/50 step 490/500 global=2990 loss=0.520741 lr=0.0007625 L=32768
+Epoch 6/50 step 500/500 global=3000 loss=0.428206 lr=0.0007500 L=32768
+Epoch 6 complete: train_loss=0.497048, heldout_loss=0.702408, heldout_acc=72.8875%
+Epoch 7/50 step 10/500 global=3010 loss=0.524262 lr=0.0007375 L=4096
+Epoch 7/50 step 20/500 global=3020 loss=0.525781 lr=0.0007250 L=2048
+Epoch 7/50 step 30/500 global=3030 loss=0.519594 lr=0.0007125 L=4096
+Epoch 7/50 step 40/500 global=3040 loss=0.508371 lr=0.0007000 L=4096
+Epoch 7/50 step 50/500 global=3050 loss=0.543183 lr=0.0006875 L=16384
+Epoch 7/50 step 60/500 global=3060 loss=0.614741 lr=0.0006750 L=16384
+Epoch 7/50 step 70/500 global=3070 loss=0.460442 lr=0.0006625 L=16384
+Epoch 7/50 step 80/500 global=3080 loss=0.494219 lr=0.0006500 L=2048
+Epoch 7/50 step 90/500 global=3090 loss=0.482832 lr=0.0006375 L=16384
+Epoch 7/50 step 100/500 global=3100 loss=0.437382 lr=0.0006250 L=16384
+Epoch 7/50 step 110/500 global=3110 loss=0.479976 lr=0.0006125 L=2048
+Epoch 7/50 step 120/500 global=3120 loss=0.481974 lr=0.0006000 L=8192
+Epoch 7/50 step 130/500 global=3130 loss=0.432882 lr=0.0005875 L=16384
+Epoch 7/50 step 140/500 global=3140 loss=0.541750 lr=0.0005750 L=4096
+Epoch 7/50 step 150/500 global=3150 loss=0.406702 lr=0.0005625 L=16384
+Epoch 7/50 step 160/500 global=3160 loss=0.521200 lr=0.0005500 L=16384
+Epoch 7/50 step 170/500 global=3170 loss=0.450194 lr=0.0005375 L=4096
+Epoch 7/50 step 180/500 global=3180 loss=0.434662 lr=0.0005250 L=2048
+Epoch 7/50 step 190/500 global=3190 loss=0.508626 lr=0.0005125 L=2048
+Epoch 7/50 step 200/500 global=3200 loss=0.478089 lr=0.0005000 L=8192
+Epoch 7/50 step 210/500 global=3210 loss=0.442433 lr=0.0005125 L=8192
+Epoch 7/50 step 220/500 global=3220 loss=0.490713 lr=0.0005250 L=32768
+Epoch 7/50 step 230/500 global=3230 loss=0.450141 lr=0.0005375 L=4096
+Epoch 7/50 step 240/500 global=3240 loss=0.433583 lr=0.0005500 L=4096
+Epoch 7/50 step 250/500 global=3250 loss=0.442572 lr=0.0005625 L=32768
+Epoch 7/50 step 260/500 global=3260 loss=0.576879 lr=0.0005750 L=32768
+Epoch 7/50 step 270/500 global=3270 loss=0.469771 lr=0.0005875 L=32768
+Epoch 7/50 step 280/500 global=3280 loss=0.482273 lr=0.0006000 L=16384
+Epoch 7/50 step 290/500 global=3290 loss=0.505007 lr=0.0006125 L=2048
+Epoch 7/50 step 300/500 global=3300 loss=0.435411 lr=0.0006250 L=32768
+Epoch 7/50 step 310/500 global=3310 loss=0.457373 lr=0.0006375 L=8192
+Epoch 7/50 step 320/500 global=3320 loss=0.459495 lr=0.0006500 L=32768
+Epoch 7/50 step 330/500 global=3330 loss=0.412845 lr=0.0006625 L=4096
+Epoch 7/50 step 340/500 global=3340 loss=0.513357 lr=0.0006750 L=4096
+Epoch 7/50 step 350/500 global=3350 loss=0.443116 lr=0.0006875 L=32768
+Epoch 7/50 step 360/500 global=3360 loss=0.426098 lr=0.0007000 L=2048
+Epoch 7/50 step 370/500 global=3370 loss=0.443407 lr=0.0007125 L=16384
+Epoch 7/50 step 380/500 global=3380 loss=0.419347 lr=0.0007250 L=32768
+Epoch 7/50 step 390/500 global=3390 loss=0.515021 lr=0.0007375 L=8192
+Epoch 7/50 step 400/500 global=3400 loss=0.510791 lr=0.0007500 L=2048
+Epoch 7/50 step 410/500 global=3410 loss=0.421309 lr=0.0007625 L=4096
+Epoch 7/50 step 420/500 global=3420 loss=0.527649 lr=0.0007750 L=2048
+Epoch 7/50 step 430/500 global=3430 loss=0.426006 lr=0.0007875 L=8192
+Epoch 7/50 step 440/500 global=3440 loss=0.467659 lr=0.0008000 L=32768
+Epoch 7/50 step 450/500 global=3450 loss=0.502507 lr=0.0008125 L=4096
+Epoch 7/50 step 460/500 global=3460 loss=0.606222 lr=0.0008250 L=2048
+Epoch 7/50 step 470/500 global=3470 loss=0.499834 lr=0.0008375 L=4096
+Epoch 7/50 step 480/500 global=3480 loss=0.492086 lr=0.0008500 L=32768
+Epoch 7/50 step 490/500 global=3490 loss=0.433890 lr=0.0008625 L=16384
+Epoch 7/50 step 500/500 global=3500 loss=0.446353 lr=0.0008750 L=32768
+Epoch 7 complete: train_loss=0.480000, heldout_loss=0.549749, heldout_acc=75.2563%
+Epoch 8/50 step 10/500 global=3510 loss=0.504328 lr=0.0008875 L=4096
+Epoch 8/50 step 20/500 global=3520 loss=0.439051 lr=0.0009000 L=32768
+Epoch 8/50 step 30/500 global=3530 loss=0.483241 lr=0.0009125 L=4096
+Epoch 8/50 step 40/500 global=3540 loss=0.506888 lr=0.0009250 L=32768
+Epoch 8/50 step 50/500 global=3550 loss=0.468431 lr=0.0009375 L=8192
+Epoch 8/50 step 60/500 global=3560 loss=0.512410 lr=0.0009500 L=32768
+Epoch 8/50 step 70/500 global=3570 loss=0.428928 lr=0.0009625 L=16384
+Epoch 8/50 step 80/500 global=3580 loss=0.420653 lr=0.0009750 L=32768
+Epoch 8/50 step 90/500 global=3590 loss=0.494144 lr=0.0009875 L=8192
+Epoch 8/50 step 100/500 global=3600 loss=0.567977 lr=0.0010000 L=4096
+Epoch 8/50 step 110/500 global=3610 loss=0.527977 lr=0.0010125 L=16384
+Epoch 8/50 step 120/500 global=3620 loss=0.455572 lr=0.0010250 L=16384
+Epoch 8/50 step 130/500 global=3630 loss=0.464626 lr=0.0010375 L=8192
+Epoch 8/50 step 140/500 global=3640 loss=0.504612 lr=0.0010500 L=4096
+Epoch 8/50 step 150/500 global=3650 loss=0.424729 lr=0.0010625 L=8192
+Epoch 8/50 step 160/500 global=3660 loss=0.464624 lr=0.0010750 L=4096
+Epoch 8/50 step 170/500 global=3670 loss=0.541110 lr=0.0010875 L=2048
+Epoch 8/50 step 180/500 global=3680 loss=0.483175 lr=0.0011000 L=4096
+Epoch 8/50 step 190/500 global=3690 loss=0.438183 lr=0.0011125 L=4096
+Epoch 8/50 step 200/500 global=3700 loss=0.476947 lr=0.0011250 L=32768
+Epoch 8/50 step 210/500 global=3710 loss=0.469567 lr=0.0011375 L=8192
+Epoch 8/50 step 220/500 global=3720 loss=0.476327 lr=0.0011500 L=2048
+Epoch 8/50 step 230/500 global=3730 loss=0.492169 lr=0.0011625 L=8192
+Epoch 8/50 step 240/500 global=3740 loss=0.457362 lr=0.0011750 L=16384
+Epoch 8/50 step 250/500 global=3750 loss=0.469996 lr=0.0011875 L=16384
+Epoch 8/50 step 260/500 global=3760 loss=0.465010 lr=0.0012000 L=4096
+Epoch 8/50 step 270/500 global=3770 loss=0.504690 lr=0.0012125 L=8192
+Epoch 8/50 step 280/500 global=3780 loss=0.570769 lr=0.0012250 L=4096
+Epoch 8/50 step 290/500 global=3790 loss=0.512047 lr=0.0012375 L=16384
+Epoch 8/50 step 300/500 global=3800 loss=0.532339 lr=0.0012500 L=4096
+Epoch 8/50 step 310/500 global=3810 loss=0.459636 lr=0.0012625 L=16384
+Epoch 8/50 step 320/500 global=3820 loss=0.542196 lr=0.0012750 L=2048
+Epoch 8/50 step 330/500 global=3830 loss=0.471685 lr=0.0012875 L=2048
+Epoch 8/50 step 340/500 global=3840 loss=0.489274 lr=0.0013000 L=32768
+Epoch 8/50 step 350/500 global=3850 loss=0.460626 lr=0.0013125 L=32768
+Epoch 8/50 step 360/500 global=3860 loss=0.508088 lr=0.0013250 L=4096
+Epoch 8/50 step 370/500 global=3870 loss=0.421861 lr=0.0013375 L=4096
+Epoch 8/50 step 380/500 global=3880 loss=0.442956 lr=0.0013500 L=8192
+Epoch 8/50 step 390/500 global=3890 loss=0.579858 lr=0.0013625 L=2048
+Epoch 8/50 step 400/500 global=3900 loss=0.426376 lr=0.0013750 L=16384
+Epoch 8/50 step 410/500 global=3910 loss=0.428160 lr=0.0013875 L=16384
+Epoch 8/50 step 420/500 global=3920 loss=0.534985 lr=0.0014000 L=2048
+Epoch 8/50 step 430/500 global=3930 loss=0.546277 lr=0.0014125 L=4096
+Epoch 8/50 step 440/500 global=3940 loss=0.454281 lr=0.0014250 L=2048
+Epoch 8/50 step 450/500 global=3950 loss=0.450332 lr=0.0014375 L=16384
+Epoch 8/50 step 460/500 global=3960 loss=0.530986 lr=0.0014500 L=2048
+Epoch 8/50 step 470/500 global=3970 loss=0.525878 lr=0.0014625 L=2048
+Epoch 8/50 step 480/500 global=3980 loss=0.506161 lr=0.0014750 L=2048
+Epoch 8/50 step 490/500 global=3990 loss=0.586218 lr=0.0014875 L=2048
+Epoch 8/50 step 500/500 global=4000 loss=0.452199 lr=0.0015000 L=32768
+Epoch 8 complete: train_loss=0.487518, heldout_loss=0.582361, heldout_acc=72.4406%
+Epoch 9/50 step 10/500 global=4010 loss=0.492612 lr=0.0015125 L=16384
+Epoch 9/50 step 20/500 global=4020 loss=0.517601 lr=0.0015250 L=2048
+Epoch 9/50 step 30/500 global=4030 loss=0.440190 lr=0.0015375 L=16384
+Epoch 9/50 step 40/500 global=4040 loss=0.583089 lr=0.0015500 L=32768
+Epoch 9/50 step 50/500 global=4050 loss=0.508836 lr=0.0015625 L=32768
+Epoch 9/50 step 60/500 global=4060 loss=0.525673 lr=0.0015750 L=4096
+Epoch 9/50 step 70/500 global=4070 loss=0.472413 lr=0.0015875 L=32768
+Epoch 9/50 step 80/500 global=4080 loss=0.444397 lr=0.0016000 L=4096
+Epoch 9/50 step 90/500 global=4090 loss=0.591244 lr=0.0016125 L=8192
+Epoch 9/50 step 100/500 global=4100 loss=0.458849 lr=0.0016250 L=2048
+Epoch 9/50 step 110/500 global=4110 loss=0.623837 lr=0.0016375 L=4096
+Epoch 9/50 step 120/500 global=4120 loss=0.424029 lr=0.0016500 L=16384
+Epoch 9/50 step 130/500 global=4130 loss=0.565872 lr=0.0016625 L=8192
+Epoch 9/50 step 140/500 global=4140 loss=0.459991 lr=0.0016750 L=16384
+Epoch 9/50 step 150/500 global=4150 loss=0.445264 lr=0.0016875 L=16384
+Epoch 9/50 step 160/500 global=4160 loss=0.508670 lr=0.0017000 L=4096
+Epoch 9/50 step 170/500 global=4170 loss=0.534204 lr=0.0017125 L=8192
+Epoch 9/50 step 180/500 global=4180 loss=0.626237 lr=0.0017250 L=8192
+Epoch 9/50 step 190/500 global=4190 loss=0.425857 lr=0.0017375 L=4096
+Epoch 9/50 step 200/500 global=4200 loss=0.471458 lr=0.0017500 L=8192
+Epoch 9/50 step 210/500 global=4210 loss=0.512003 lr=0.0017625 L=8192
+Epoch 9/50 step 220/500 global=4220 loss=0.461797 lr=0.0017750 L=32768
+Epoch 9/50 step 230/500 global=4230 loss=0.554122 lr=0.0017875 L=8192
+Epoch 9/50 step 240/500 global=4240 loss=0.536349 lr=0.0018000 L=2048
+Epoch 9/50 step 250/500 global=4250 loss=0.542151 lr=0.0018125 L=4096
+Epoch 9/50 step 260/500 global=4260 loss=0.464801 lr=0.0018250 L=4096
+Epoch 9/50 step 270/500 global=4270 loss=0.689181 lr=0.0018375 L=2048
+Epoch 9/50 step 280/500 global=4280 loss=0.431828 lr=0.0018500 L=32768
+Epoch 9/50 step 290/500 global=4290 loss=0.487448 lr=0.0018625 L=32768
+Epoch 9/50 step 300/500 global=4300 loss=0.492371 lr=0.0018750 L=16384
+Epoch 9/50 step 310/500 global=4310 loss=0.439811 lr=0.0018875 L=16384
+Epoch 9/50 step 320/500 global=4320 loss=0.415634 lr=0.0019000 L=32768
+Epoch 9/50 step 330/500 global=4330 loss=0.401607 lr=0.0019125 L=8192
+Epoch 9/50 step 340/500 global=4340 loss=0.472791 lr=0.0019250 L=2048
+Epoch 9/50 step 350/500 global=4350 loss=0.494844 lr=0.0019375 L=2048
+Epoch 9/50 step 360/500 global=4360 loss=0.394101 lr=0.0019500 L=16384
+Epoch 9/50 step 370/500 global=4370 loss=0.451485 lr=0.0019625 L=16384
+Epoch 9/50 step 380/500 global=4380 loss=0.486067 lr=0.0019750 L=2048
+Epoch 9/50 step 390/500 global=4390 loss=0.416493 lr=0.0019875 L=4096
+Epoch 9/50 step 400/500 global=4400 loss=0.537203 lr=0.0020000 L=32768
+Epoch 9/50 step 410/500 global=4410 loss=0.581510 lr=0.0020125 L=4096
+Epoch 9/50 step 420/500 global=4420 loss=0.485975 lr=0.0020250 L=8192
+Epoch 9/50 step 430/500 global=4430 loss=0.498181 lr=0.0020375 L=16384
+Epoch 9/50 step 440/500 global=4440 loss=0.470143 lr=0.0020500 L=4096
+Epoch 9/50 step 450/500 global=4450 loss=0.523541 lr=0.0020625 L=8192
+Epoch 9/50 step 460/500 global=4460 loss=0.465905 lr=0.0020750 L=2048
+Epoch 9/50 step 470/500 global=4470 loss=0.531753 lr=0.0020875 L=2048
+Epoch 9/50 step 480/500 global=4480 loss=0.467381 lr=0.0021000 L=32768
+Epoch 9/50 step 490/500 global=4490 loss=0.449263 lr=0.0021125 L=32768
+Epoch 9/50 step 500/500 global=4500 loss=0.566017 lr=0.0021250 L=4096
+Epoch 9 complete: train_loss=0.496842, heldout_loss=0.675423, heldout_acc=68.6625%
+Epoch 10/50 step 10/500 global=4510 loss=0.562271 lr=0.0021375 L=2048
+Epoch 10/50 step 20/500 global=4520 loss=0.564397 lr=0.0021500 L=32768
+Epoch 10/50 step 30/500 global=4530 loss=0.524790 lr=0.0021625 L=16384
+Epoch 10/50 step 40/500 global=4540 loss=0.509580 lr=0.0021750 L=4096
+Epoch 10/50 step 50/500 global=4550 loss=0.582553 lr=0.0021875 L=2048
+Epoch 10/50 step 60/500 global=4560 loss=0.574933 lr=0.0022000 L=32768
+Epoch 10/50 step 70/500 global=4570 loss=0.559758 lr=0.0022125 L=32768
+Epoch 10/50 step 80/500 global=4580 loss=0.487390 lr=0.0022250 L=32768
+Epoch 10/50 step 90/500 global=4590 loss=0.514881 lr=0.0022375 L=16384
+Epoch 10/50 step 100/500 global=4600 loss=0.524582 lr=0.0022500 L=2048
+Epoch 10/50 step 110/500 global=4610 loss=0.475006 lr=0.0022625 L=8192
+Epoch 10/50 step 120/500 global=4620 loss=0.560819 lr=0.0022750 L=4096
+Epoch 10/50 step 130/500 global=4630 loss=0.437168 lr=0.0022875 L=32768
+Epoch 10/50 step 140/500 global=4640 loss=0.513420 lr=0.0023000 L=2048
+Epoch 10/50 step 150/500 global=4650 loss=0.461430 lr=0.0023125 L=16384
+Epoch 10/50 step 160/500 global=4660 loss=0.441449 lr=0.0023250 L=8192
+Epoch 10/50 step 170/500 global=4670 loss=0.523062 lr=0.0023375 L=32768
+Epoch 10/50 step 180/500 global=4680 loss=0.469516 lr=0.0023500 L=8192
+Epoch 10/50 step 190/500 global=4690 loss=0.590810 lr=0.0023625 L=2048
+Epoch 10/50 step 200/500 global=4700 loss=0.463386 lr=0.0023750 L=8192
+Epoch 10/50 step 210/500 global=4710 loss=0.523037 lr=0.0023875 L=32768
+Epoch 10/50 step 220/500 global=4720 loss=0.487146 lr=0.0024000 L=4096
+Epoch 10/50 step 230/500 global=4730 loss=0.534134 lr=0.0024125 L=16384
+Epoch 10/50 step 240/500 global=4740 loss=0.511708 lr=0.0024250 L=4096
+Epoch 10/50 step 250/500 global=4750 loss=0.502447 lr=0.0024375 L=16384
+Epoch 10/50 step 260/500 global=4760 loss=0.491043 lr=0.0024500 L=32768
+Epoch 10/50 step 270/500 global=4770 loss=0.527484 lr=0.0024625 L=8192
+Epoch 10/50 step 280/500 global=4780 loss=0.473795 lr=0.0024750 L=8192
+Epoch 10/50 step 290/500 global=4790 loss=0.570902 lr=0.0024875 L=32768
+Epoch 10/50 step 300/500 global=4800 loss=0.633849 lr=0.0025000 L=32768
+Epoch 10/50 step 310/500 global=4810 loss=0.427646 lr=0.0024875 L=4096
+Epoch 10/50 step 320/500 global=4820 loss=0.418220 lr=0.0024750 L=8192
+Epoch 10/50 step 330/500 global=4830 loss=0.551313 lr=0.0024625 L=2048
+Epoch 10/50 step 340/500 global=4840 loss=0.502313 lr=0.0024500 L=2048
+Epoch 10/50 step 350/500 global=4850 loss=0.623303 lr=0.0024375 L=4096
+Epoch 10/50 step 360/500 global=4860 loss=0.519879 lr=0.0024250 L=2048
+Epoch 10/50 step 370/500 global=4870 loss=0.476835 lr=0.0024125 L=4096
+Epoch 10/50 step 380/500 global=4880 loss=0.493035 lr=0.0024000 L=8192
+Epoch 10/50 step 390/500 global=4890 loss=0.561896 lr=0.0023875 L=2048
+Epoch 10/50 step 400/500 global=4900 loss=0.430041 lr=0.0023750 L=16384
+Epoch 10/50 step 410/500 global=4910 loss=0.521556 lr=0.0023625 L=8192
+Epoch 10/50 step 420/500 global=4920 loss=0.581537 lr=0.0023500 L=2048
+Epoch 10/50 step 430/500 global=4930 loss=0.451854 lr=0.0023375 L=2048
+Epoch 10/50 step 440/500 global=4940 loss=0.520856 lr=0.0023250 L=4096
+Epoch 10/50 step 450/500 global=4950 loss=0.572435 lr=0.0023125 L=2048
+Epoch 10/50 step 460/500 global=4960 loss=0.487392 lr=0.0023000 L=16384
+Epoch 10/50 step 470/500 global=4970 loss=0.445742 lr=0.0022875 L=8192
+Epoch 10/50 step 480/500 global=4980 loss=0.443886 lr=0.0022750 L=32768
+Epoch 10/50 step 490/500 global=4990 loss=0.571124 lr=0.0022625 L=32768
+Epoch 10/50 step 500/500 global=5000 loss=0.482375 lr=0.0022500 L=16384
+Epoch 10 complete: train_loss=0.513600, heldout_loss=0.503228, heldout_acc=76.8469%
+Epoch 11/50 step 100/500 global=5100 loss=0.505195 lr=0.0021250 L=16384
+Epoch 11/50 step 200/500 global=5200 loss=0.501761 lr=0.0020000 L=16384
+Epoch 11/50 step 300/500 global=5300 loss=0.479104 lr=0.0018750 L=8192
+Epoch 11/50 step 400/500 global=5400 loss=0.480438 lr=0.0017500 L=4096
+Epoch 11/50 step 500/500 global=5500 loss=0.509338 lr=0.0016250 L=8192
+Epoch 11 complete: train_loss=0.495167, heldout_loss=0.630790, heldout_acc=72.8625%
+Epoch 12/50 step 100/500 global=5600 loss=0.489509 lr=0.0015000 L=32768
+Epoch 12/50 step 200/500 global=5700 loss=0.471054 lr=0.0013750 L=2048
+Epoch 12/50 step 300/500 global=5800 loss=0.461252 lr=0.0012500 L=32768
+Epoch 12/50 step 400/500 global=5900 loss=0.442718 lr=0.0011250 L=32768
+Epoch 12/50 step 500/500 global=6000 loss=0.499204 lr=0.0010000 L=8192
+Epoch 12 complete: train_loss=0.472747, heldout_loss=0.624039, heldout_acc=74.5406%
+Epoch 13/50 step 100/500 global=6100 loss=0.468113 lr=0.0008750 L=32768
+Epoch 13/50 step 200/500 global=6200 loss=0.461703 lr=0.0007500 L=8192
+Epoch 13/50 step 300/500 global=6300 loss=0.477629 lr=0.0006250 L=4096
+Epoch 13/50 step 400/500 global=6400 loss=0.438452 lr=0.0005000 L=4096
+Epoch 13/50 step 500/500 global=6500 loss=0.460081 lr=0.0006250 L=16384
+Epoch 13 complete: train_loss=0.461196, heldout_loss=0.690853, heldout_acc=69.8719%
+Epoch 14/50 step 100/500 global=6600 loss=0.462781 lr=0.0007500 L=2048
+Epoch 14/50 step 200/500 global=6700 loss=0.465805 lr=0.0008750 L=2048
+Epoch 14/50 step 300/500 global=6800 loss=0.452677 lr=0.0010000 L=16384
+Epoch 14/50 step 400/500 global=6900 loss=0.467203 lr=0.0011250 L=8192
+Epoch 14/50 step 500/500 global=7000 loss=0.457303 lr=0.0012500 L=16384
+Epoch 14 complete: train_loss=0.461154, heldout_loss=0.439218, heldout_acc=78.3063%
+Epoch 15/50 step 100/500 global=7100 loss=0.477588 lr=0.0013750 L=4096
+Epoch 15/50 step 200/500 global=7200 loss=0.466662 lr=0.0015000 L=2048
+Epoch 15/50 step 300/500 global=7300 loss=0.484771 lr=0.0016250 L=16384
+Epoch 15/50 step 400/500 global=7400 loss=0.474265 lr=0.0017500 L=16384
+Epoch 15/50 step 500/500 global=7500 loss=0.481091 lr=0.0018750 L=16384
+Epoch 15 complete: train_loss=0.476875, heldout_loss=0.611470, heldout_acc=73.1250%
+Epoch 16/50 step 100/500 global=7600 loss=0.502404 lr=0.0020000 L=32768
+Epoch 16/50 step 200/500 global=7700 loss=0.483771 lr=0.0021250 L=16384
+Epoch 16/50 step 300/500 global=7800 loss=0.491600 lr=0.0022500 L=32768
+Epoch 16/50 step 400/500 global=7900 loss=0.500955 lr=0.0023750 L=16384
+Epoch 16/50 step 500/500 global=8000 loss=0.477588 lr=0.0025000 L=4096
+Epoch 16 complete: train_loss=0.491264, heldout_loss=0.555273, heldout_acc=72.9719%
+Epoch 17/50 step 100/500 global=8100 loss=0.511973 lr=0.0023750 L=4096
+Epoch 17/50 step 200/500 global=8200 loss=0.475084 lr=0.0022500 L=2048
+Epoch 17/50 step 300/500 global=8300 loss=0.457781 lr=0.0021250 L=16384
+Epoch 17/50 step 400/500 global=8400 loss=0.466696 lr=0.0020000 L=4096
+Epoch 17/50 step 500/500 global=8500 loss=0.480044 lr=0.0018750 L=32768
+Epoch 17 complete: train_loss=0.478316, heldout_loss=0.435416, heldout_acc=78.9312%
+Epoch 18/50 step 100/500 global=8600 loss=0.493831 lr=0.0017500 L=2048
+Epoch 18/50 step 200/500 global=8700 loss=0.465837 lr=0.0016250 L=4096
+Epoch 18/50 step 300/500 global=8800 loss=0.462540 lr=0.0015000 L=4096
+Epoch 18/50 step 400/500 global=8900 loss=0.470079 lr=0.0013750 L=4096
+Epoch 18/50 step 500/500 global=9000 loss=0.451452 lr=0.0012500 L=16384
+Epoch 18 complete: train_loss=0.468748, heldout_loss=0.375086, heldout_acc=81.8969%
+Epoch 19/50 step 100/500 global=9100 loss=0.457718 lr=0.0011250 L=16384
+Epoch 19/50 step 200/500 global=9200 loss=0.454656 lr=0.0010000 L=16384
+Epoch 19/50 step 300/500 global=9300 loss=0.463561 lr=0.0008750 L=4096
+Epoch 19/50 step 400/500 global=9400 loss=0.470022 lr=0.0007500 L=32768
+Epoch 19/50 step 500/500 global=9500 loss=0.477139 lr=0.0006250 L=2048
+Epoch 19 complete: train_loss=0.464619, heldout_loss=0.569558, heldout_acc=74.0281%
+Epoch 20/50 step 100/500 global=9600 loss=0.459917 lr=0.0005000 L=32768
+Epoch 20/50 step 200/500 global=9700 loss=0.448247 lr=0.0006250 L=2048
+Epoch 20/50 step 300/500 global=9800 loss=0.445688 lr=0.0007500 L=32768
+Epoch 20/50 step 400/500 global=9900 loss=0.481803 lr=0.0008750 L=4096
+Epoch 20/50 step 500/500 global=10000 loss=0.436775 lr=0.0010000 L=32768
+Epoch 20 complete: train_loss=0.454486, heldout_loss=0.487977, heldout_acc=74.4688%
+Epoch 21/50 step 100/500 global=10100 loss=0.472769 lr=0.0011250 L=32768
+Epoch 21/50 step 200/500 global=10200 loss=0.453115 lr=0.0012500 L=16384
+Epoch 21/50 step 300/500 global=10300 loss=0.434644 lr=0.0013750 L=16384
+Epoch 21/50 step 400/500 global=10400 loss=0.472714 lr=0.0015000 L=8192
+Epoch 21/50 step 500/500 global=10500 loss=0.454945 lr=0.0016250 L=4096
+Epoch 21 complete: train_loss=0.457637, heldout_loss=0.668711, heldout_acc=66.0938%
+Epoch 22/50 step 100/500 global=10600 loss=0.456714 lr=0.0017500 L=4096
+Epoch 22/50 step 200/500 global=10700 loss=0.486306 lr=0.0018750 L=2048
+Epoch 22/50 step 300/500 global=10800 loss=0.457672 lr=0.0020000 L=32768
+Epoch 22/50 step 400/500 global=10900 loss=0.466256 lr=0.0021250 L=8192
+Epoch 22/50 step 500/500 global=11000 loss=0.490228 lr=0.0022500 L=4096
+Epoch 22 complete: train_loss=0.471435, heldout_loss=0.586153, heldout_acc=71.3750%
+Epoch 23/50 step 100/500 global=11100 loss=0.499172 lr=0.0023750 L=16384
+Epoch 23/50 step 200/500 global=11200 loss=0.478353 lr=0.0025000 L=16384
+Epoch 23/50 step 300/500 global=11300 loss=0.481217 lr=0.0023750 L=16384
+Epoch 23/50 step 400/500 global=11400 loss=0.458407 lr=0.0022500 L=8192
+Epoch 23/50 step 500/500 global=11500 loss=0.493366 lr=0.0021250 L=16384
+Epoch 23 complete: train_loss=0.482103, heldout_loss=0.530297, heldout_acc=73.8219%
+Epoch 24/50 step 100/500 global=11600 loss=0.470469 lr=0.0020000 L=4096
+Epoch 24/50 step 200/500 global=11700 loss=0.454060 lr=0.0018750 L=4096
+Epoch 24/50 step 300/500 global=11800 loss=0.472274 lr=0.0017500 L=4096
+Epoch 24/50 step 400/500 global=11900 loss=0.458223 lr=0.0016250 L=2048
+Epoch 24/50 step 500/500 global=12000 loss=0.440507 lr=0.0015000 L=16384
+Epoch 24 complete: train_loss=0.459107, heldout_loss=0.453489, heldout_acc=79.7375%
+Epoch 25/50 step 100/500 global=12100 loss=0.458779 lr=0.0013750 L=8192
+Epoch 25/50 step 200/500 global=12200 loss=0.471279 lr=0.0012500 L=32768
+Epoch 25/50 step 300/500 global=12300 loss=0.447050 lr=0.0011250 L=16384
+Epoch 25/50 step 400/500 global=12400 loss=0.473212 lr=0.0010000 L=8192
+Epoch 25/50 step 500/500 global=12500 loss=0.453351 lr=0.0008750 L=4096
+Epoch 25 complete: train_loss=0.460734, heldout_loss=0.777964, heldout_acc=71.5063%
+Epoch 26/50 step 100/500 global=12600 loss=0.476101 lr=0.0007500 L=16384
+Epoch 26/50 step 200/500 global=12700 loss=0.474861 lr=0.0006250 L=16384
+Epoch 26/50 step 300/500 global=12800 loss=0.468358 lr=0.0005000 L=16384
+Epoch 26/50 step 400/500 global=12900 loss=0.436995 lr=0.0006250 L=4096
+Epoch 26/50 step 500/500 global=13000 loss=0.436134 lr=0.0007500 L=32768
+Epoch 26 complete: train_loss=0.458490, heldout_loss=0.482116, heldout_acc=76.1031%
+Epoch 27/50 step 100/500 global=13100 loss=0.470550 lr=0.0008750 L=8192
+Epoch 27/50 step 200/500 global=13200 loss=0.451014 lr=0.0010000 L=2048
+Epoch 27/50 step 300/500 global=13300 loss=0.444618 lr=0.0011250 L=16384
+Epoch 27/50 step 400/500 global=13400 loss=0.468039 lr=0.0012500 L=4096
+Epoch 27/50 step 500/500 global=13500 loss=0.461673 lr=0.0013750 L=16384
+Epoch 27 complete: train_loss=0.459179, heldout_loss=0.457386, heldout_acc=78.9375%
+Epoch 28/50 step 100/500 global=13600 loss=0.434275 lr=0.0015000 L=8192
+Epoch 28/50 step 200/500 global=13700 loss=0.460171 lr=0.0016250 L=32768
+Epoch 28/50 step 300/500 global=13800 loss=0.459395 lr=0.0017500 L=2048
+Epoch 28/50 step 400/500 global=13900 loss=0.458479 lr=0.0018750 L=8192
+Epoch 28/50 step 500/500 global=14000 loss=0.474281 lr=0.0020000 L=2048
+Epoch 28 complete: train_loss=0.457320, heldout_loss=0.464770, heldout_acc=77.4656%
+Epoch 29/50 step 100/500 global=14100 loss=0.439710 lr=0.0021250 L=32768
+Epoch 29/50 step 200/500 global=14200 loss=0.479873 lr=0.0022500 L=8192
+Epoch 29/50 step 300/500 global=14300 loss=0.495828 lr=0.0023750 L=2048
+Epoch 29/50 step 400/500 global=14400 loss=0.468346 lr=0.0025000 L=2048
+Epoch 29/50 step 500/500 global=14500 loss=0.457805 lr=0.0023750 L=2048
+Epoch 29 complete: train_loss=0.468312, heldout_loss=0.450635, heldout_acc=79.1875%
+Epoch 30/50 step 100/500 global=14600 loss=0.485388 lr=0.0022500 L=2048
+Epoch 30/50 step 200/500 global=14700 loss=0.458459 lr=0.0021250 L=16384
+Epoch 30/50 step 300/500 global=14800 loss=0.451518 lr=0.0020000 L=2048
+Epoch 30/50 step 400/500 global=14900 loss=0.438175 lr=0.0018750 L=16384
+Epoch 30/50 step 500/500 global=15000 loss=0.470607 lr=0.0017500 L=32768
+Epoch 30 complete: train_loss=0.460829, heldout_loss=0.413221, heldout_acc=79.9000%
+Epoch 31/50 step 100/500 global=15100 loss=0.460577 lr=0.0016250 L=8192
+Epoch 31/50 step 200/500 global=15200 loss=0.451667 lr=0.0015000 L=2048
+Epoch 31/50 step 300/500 global=15300 loss=0.471871 lr=0.0013750 L=16384
+Epoch 31/50 step 400/500 global=15400 loss=0.456866 lr=0.0012500 L=2048
+Epoch 31/50 step 500/500 global=15500 loss=0.458390 lr=0.0011250 L=8192
+Epoch 31 complete: train_loss=0.459874, heldout_loss=0.477430, heldout_acc=78.4406%
+Epoch 32/50 step 100/500 global=15600 loss=0.469269 lr=0.0010000 L=4096
+Epoch 32/50 step 200/500 global=15700 loss=0.457645 lr=0.0008750 L=4096
+Epoch 32/50 step 300/500 global=15800 loss=0.455568 lr=0.0007500 L=16384
+Epoch 32/50 step 400/500 global=15900 loss=0.446910 lr=0.0006250 L=2048
+Epoch 32/50 step 500/500 global=16000 loss=0.437434 lr=0.0005000 L=4096
+Epoch 32 complete: train_loss=0.453365, heldout_loss=0.574519, heldout_acc=74.6437%
+Epoch 33/50 step 100/500 global=16100 loss=0.456644 lr=0.0006250 L=8192
+Epoch 33/50 step 200/500 global=16200 loss=0.425461 lr=0.0007500 L=32768
+Epoch 33/50 step 300/500 global=16300 loss=0.425561 lr=0.0008750 L=2048
+Epoch 33/50 step 400/500 global=16400 loss=0.437310 lr=0.0010000 L=2048
+Epoch 33/50 step 500/500 global=16500 loss=0.465499 lr=0.0011250 L=4096
+Epoch 33 complete: train_loss=0.442095, heldout_loss=0.597291, heldout_acc=74.3125%
+Epoch 34/50 step 100/500 global=16600 loss=0.445017 lr=0.0012500 L=2048
+Epoch 34/50 step 200/500 global=16700 loss=0.452097 lr=0.0013750 L=2048
+Epoch 34/50 step 300/500 global=16800 loss=0.455970 lr=0.0015000 L=4096
+Epoch 34/50 step 400/500 global=16900 loss=0.439338 lr=0.0016250 L=4096
+Epoch 34/50 step 500/500 global=17000 loss=0.453079 lr=0.0017500 L=4096
+Epoch 34 complete: train_loss=0.449100, heldout_loss=0.444410, heldout_acc=79.7094%
+Epoch 35/50 step 100/500 global=17100 loss=0.444550 lr=0.0018750 L=4096
+Epoch 35/50 step 200/500 global=17200 loss=0.442471 lr=0.0020000 L=16384
+Epoch 35/50 step 300/500 global=17300 loss=0.476437 lr=0.0021250 L=8192
+Epoch 35/50 step 400/500 global=17400 loss=0.463332 lr=0.0022500 L=32768
+Epoch 35/50 step 500/500 global=17500 loss=0.470613 lr=0.0023750 L=32768
+Epoch 35 complete: train_loss=0.459481, heldout_loss=0.451452, heldout_acc=78.1312%
+Epoch 36/50 step 100/500 global=17600 loss=0.467864 lr=0.0025000 L=8192
+Epoch 36/50 step 200/500 global=17700 loss=0.460943 lr=0.0023750 L=4096
+Epoch 36/50 step 300/500 global=17800 loss=0.479942 lr=0.0022500 L=2048
+Epoch 36/50 step 400/500 global=17900 loss=0.463522 lr=0.0021250 L=8192
+Epoch 36/50 step 500/500 global=18000 loss=0.461402 lr=0.0020000 L=16384
+Epoch 36 complete: train_loss=0.466735, heldout_loss=0.487404, heldout_acc=79.1719%
+Epoch 37/50 step 100/500 global=18100 loss=0.457829 lr=0.0018750 L=16384
+Epoch 37/50 step 200/500 global=18200 loss=0.448523 lr=0.0017500 L=2048
+Epoch 37/50 step 300/500 global=18300 loss=0.449081 lr=0.0016250 L=2048
+Epoch 37/50 step 400/500 global=18400 loss=0.476702 lr=0.0015000 L=2048
+Epoch 37/50 step 500/500 global=18500 loss=0.457556 lr=0.0013750 L=16384
+Epoch 37 complete: train_loss=0.457938, heldout_loss=0.487410, heldout_acc=75.8312%
+Epoch 38/50 step 100/500 global=18600 loss=0.438635 lr=0.0012500 L=32768
+Epoch 38/50 step 200/500 global=18700 loss=0.453289 lr=0.0011250 L=16384
+Epoch 38/50 step 300/500 global=18800 loss=0.455602 lr=0.0010000 L=8192
+Epoch 38/50 step 400/500 global=18900 loss=0.432817 lr=0.0008750 L=32768
+Epoch 38/50 step 500/500 global=19000 loss=0.446997 lr=0.0007500 L=4096
+Epoch 38 complete: train_loss=0.445468, heldout_loss=0.368313, heldout_acc=82.8875%
+Epoch 39/50 step 100/500 global=19100 loss=0.446254 lr=0.0006250 L=2048
+Epoch 39/50 step 200/500 global=19200 loss=0.447067 lr=0.0005000 L=16384
+Epoch 39/50 step 300/500 global=19300 loss=0.426981 lr=0.0006250 L=16384
+Epoch 39/50 step 400/500 global=19400 loss=0.438270 lr=0.0007500 L=8192
+Epoch 39/50 step 500/500 global=19500 loss=0.449351 lr=0.0008750 L=2048
+Epoch 39 complete: train_loss=0.441584, heldout_loss=0.447059, heldout_acc=81.6781%
+Epoch 40/50 step 100/500 global=19600 loss=0.474378 lr=0.0010000 L=4096
+Epoch 40/50 step 200/500 global=19700 loss=0.439473 lr=0.0011250 L=8192
+Epoch 40/50 step 300/500 global=19800 loss=0.442154 lr=0.0012500 L=8192
+Epoch 40/50 step 400/500 global=19900 loss=0.432590 lr=0.0013750 L=4096
+Epoch 40/50 step 500/500 global=20000 loss=0.471886 lr=0.0015000 L=2048
+Epoch 40 complete: train_loss=0.452096, heldout_loss=1.443203, heldout_acc=66.8781%
+Epoch 41/50 step 100/500 global=20100 loss=0.436834 lr=0.0016250 L=16384
+Epoch 41/50 step 200/500 global=20200 loss=0.447547 lr=0.0017500 L=16384
+Epoch 41/50 step 300/500 global=20300 loss=0.453089 lr=0.0018750 L=16384
+Epoch 41/50 step 400/500 global=20400 loss=0.462297 lr=0.0020000 L=2048
+Epoch 41/50 step 500/500 global=20500 loss=0.449484 lr=0.0021250 L=16384
+Epoch 41 complete: train_loss=0.449850, heldout_loss=0.465808, heldout_acc=78.5500%
+Epoch 42/50 step 100/500 global=20600 loss=0.433430 lr=0.0022500 L=2048
+Epoch 42/50 step 200/500 global=20700 loss=0.468780 lr=0.0023750 L=2048
+Epoch 42/50 step 300/500 global=20800 loss=0.480852 lr=0.0025000 L=8192
+Epoch 42/50 step 400/500 global=20900 loss=0.447661 lr=0.0023750 L=2048
+Epoch 42/50 step 500/500 global=21000 loss=0.474548 lr=0.0022500 L=2048
+Epoch 42 complete: train_loss=0.461054, heldout_loss=1.524206, heldout_acc=69.0375%
+Epoch 43/50 step 100/500 global=21100 loss=0.468254 lr=0.0021250 L=8192
+Epoch 43/50 step 200/500 global=21200 loss=0.446974 lr=0.0020000 L=8192
+Epoch 43/50 step 300/500 global=21300 loss=0.455393 lr=0.0018750 L=8192
+Epoch 43/50 step 400/500 global=21400 loss=0.461032 lr=0.0017500 L=16384
+Epoch 43/50 step 500/500 global=21500 loss=0.469856 lr=0.0016250 L=2048
+Epoch 43 complete: train_loss=0.460302, heldout_loss=0.758685, heldout_acc=73.4688%
+Epoch 44/50 step 100/500 global=21600 loss=0.471406 lr=0.0015000 L=8192
+Epoch 44/50 step 200/500 global=21700 loss=0.454474 lr=0.0013750 L=4096
+Epoch 44/50 step 300/500 global=21800 loss=0.503475 lr=0.0012500 L=2048
+Epoch 44/50 step 400/500 global=21900 loss=0.424688 lr=0.0011250 L=4096
+Epoch 44/50 step 500/500 global=22000 loss=0.438510 lr=0.0010000 L=8192
+Epoch 44 complete: train_loss=0.458511, heldout_loss=0.527988, heldout_acc=74.6406%
+Epoch 45/50 step 100/500 global=22100 loss=0.436370 lr=0.0008750 L=4096
+Epoch 45/50 step 200/500 global=22200 loss=0.438345 lr=0.0007500 L=2048
+Epoch 45/50 step 300/500 global=22300 loss=0.422536 lr=0.0006250 L=32768
+Epoch 45/50 step 400/500 global=22400 loss=0.442393 lr=0.0005000 L=8192
+Epoch 45/50 step 500/500 global=22500 loss=0.433924 lr=0.0006250 L=2048
+Epoch 45 complete: train_loss=0.434714, heldout_loss=0.530966, heldout_acc=76.3062%
+Epoch 46/50 step 100/500 global=22600 loss=0.444724 lr=0.0007500 L=16384
+Epoch 46/50 step 200/500 global=22700 loss=0.454100 lr=0.0008750 L=16384
+Epoch 46/50 step 300/500 global=22800 loss=0.443461 lr=0.0010000 L=2048
+Epoch 46/50 step 400/500 global=22900 loss=0.435681 lr=0.0011250 L=2048
+Epoch 46/50 step 500/500 global=23000 loss=0.451854 lr=0.0012500 L=2048
+Epoch 46 complete: train_loss=0.445964, heldout_loss=0.642217, heldout_acc=71.9000%
+Epoch 47/50 step 100/500 global=23100 loss=0.441400 lr=0.0013750 L=4096
+Epoch 47/50 step 200/500 global=23200 loss=0.447766 lr=0.0015000 L=32768
+Epoch 47/50 step 300/500 global=23300 loss=0.441788 lr=0.0016250 L=4096
+Epoch 47/50 step 400/500 global=23400 loss=0.433571 lr=0.0017500 L=2048
+Epoch 47/50 step 500/500 global=23500 loss=0.443158 lr=0.0018750 L=8192
+Epoch 47 complete: train_loss=0.441537, heldout_loss=0.484895, heldout_acc=78.1625%
+Epoch 48/50 step 100/500 global=23600 loss=0.455748 lr=0.0020000 L=32768
+Epoch 48/50 step 200/500 global=23700 loss=0.470503 lr=0.0021250 L=2048
+Epoch 48/50 step 300/500 global=23800 loss=0.460261 lr=0.0022500 L=4096
+Epoch 48/50 step 400/500 global=23900 loss=0.438473 lr=0.0023750 L=8192
+Epoch 48/50 step 500/500 global=24000 loss=0.464870 lr=0.0025000 L=4096
+Epoch 48 complete: train_loss=0.457971, heldout_loss=0.640066, heldout_acc=70.7094%
+Epoch 49/50 step 100/500 global=24100 loss=0.467753 lr=0.0023750 L=32768
+Epoch 49/50 step 200/500 global=24200 loss=0.463269 lr=0.0022500 L=4096
+Epoch 49/50 step 300/500 global=24300 loss=0.423961 lr=0.0021250 L=4096
+Epoch 49/50 step 400/500 global=24400 loss=0.474930 lr=0.0020000 L=8192
+Epoch 49/50 step 500/500 global=24500 loss=0.465353 lr=0.0018750 L=16384
+Epoch 49 complete: train_loss=0.459053, heldout_loss=4.127439, heldout_acc=54.1813%
+Epoch 50/50 step 100/500 global=24600 loss=0.441050 lr=0.0017500 L=8192
+Epoch 50/50 step 200/500 global=24700 loss=0.443836 lr=0.0016250 L=32768
+Epoch 50/50 step 300/500 global=24800 loss=0.436830 lr=0.0015000 L=8192
+Epoch 50/50 step 400/500 global=24900 loss=0.453722 lr=0.0013750 L=2048
+Epoch 50/50 step 500/500 global=25000 loss=0.459372 lr=0.0012500 L=8192
+Epoch 50 complete: train_loss=0.446962, heldout_loss=2.782074, heldout_acc=58.0156%
+Training completed.

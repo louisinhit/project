@@ -1,0 +1,17 @@
+{
+  "state": "completed",
+  "pid": 438367,
+  "epoch": 50,
+  "global_step": 25000,
+  "planned_epochs": 50,
+  "run_dir": "/home/lxy/ab_vary_length/test/losses/lanet_joint_20261002_031341",
+  "step_in_epoch": 500,
+  "loss": 0.4593724748492241,
+  "elapsed_seconds": 4095.4045687280595,
+  "samples_seen": 4000000,
+  "completed_epochs": 50,
+  "train_loss": 0.44696189853549,
+  "monitor_loss": 2.7820742136240004,
+  "monitor_accuracy": 0.58015625,
+  "best_monitor_loss": 0.36831267312169075
+}

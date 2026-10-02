@@ -1,0 +1,94 @@
+LANet(
+  (preprocess): TrainingFeatureExtract()
+  (backbone_iq): LargeBranch(
+    (conv1): conv_layer(
+      (conv): Conv1d(2, 32, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (conv2): conv_layer(
+      (conv): Conv1d(32, 48, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(48, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (conv3): conv_layer(
+      (conv): Conv1d(48, 64, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (conv4): conv_layer(
+      (conv): Conv1d(64, 96, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(96, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (conv5): conv_layer(
+      (conv): Conv1d(96, 128, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (avg_conv): Conv1d(128, 256, kernel_size=(23,), stride=(1,), padding=(11,))
+    (avg_bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+    (stats_pool): StatsPooling()
+    (segment): Sequential(
+      (0): Linear(in_features=512, out_features=256, bias=True)
+      (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU()
+    )
+  )
+  (backbone_cc): LargeBranch(
+    (conv1): conv_layer(
+      (conv): Conv1d(8, 32, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (conv2): conv_layer(
+      (conv): Conv1d(32, 48, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(48, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (conv3): conv_layer(
+      (conv): Conv1d(48, 64, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (conv4): conv_layer(
+      (conv): Conv1d(64, 96, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(96, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (conv5): conv_layer(
+      (conv): Conv1d(96, 128, kernel_size=(23,), stride=(1,), padding=(11,))
+      (bn): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (avg_conv): Conv1d(128, 256, kernel_size=(23,), stride=(1,), padding=(11,))
+    (avg_bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+    (stats_pool): StatsPooling()
+    (segment): Sequential(
+      (0): Linear(in_features=512, out_features=256, bias=True)
+      (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU()
+    )
+  )
+  (lag): LengthConditionedGMUFusion(
+    (proj_iq): Sequential(
+      (0): Linear(in_features=256, out_features=256, bias=True)
+      (1): Tanh()
+      (2): Dropout(p=0.1, inplace=False)
+    )
+    (proj_cc): Sequential(
+      (0): Linear(in_features=256, out_features=256, bias=True)
+      (1): Tanh()
+      (2): Dropout(p=0.1, inplace=False)
+    )
+    (gate): Sequential(
+      (0): Linear(in_features=513, out_features=256, bias=True)
+      (1): Sigmoid()
+    )
+    (head): Sequential(
+      (0): Linear(in_features=256, out_features=512, bias=True)
+      (1): GELU(approximate='none')
+      (2): Linear(in_features=512, out_features=8, bias=True)
+    )
+  )
+)

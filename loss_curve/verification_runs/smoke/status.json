@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 437621,
+  "epoch": 0,
+  "global_step": 8,
+  "planned_epochs": 2,
+  "run_dir": "/home/lxy/ab_vary_length/test/verification_runs/smoke",
+  "completed_epochs": 2,
+  "elapsed_seconds": 5.076585663948208
+}
